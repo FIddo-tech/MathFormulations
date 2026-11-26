@@ -46,8 +46,5 @@ Continuous integration (`.github/workflows/lean_action_ci.yml`) runs the same bu
 
 Confidence U. Oghosa
 
-## AI-assisted preparation
-
-Large language models (including Claude) were used to help draft and debug the Lean code and
-documentation. The Lean kernel, not the AI, decides whether a proof is correct: a proof counts
+The Lean kernel, decides whether a proof is correct: a proof counts
 only if `lake build` succeeds.
